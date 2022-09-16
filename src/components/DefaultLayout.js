@@ -1,11 +1,13 @@
 import React from "react";
+import FooterComponent from "./FooterComponent";
 import HeaderComponent from "./HeaderComponent";
 
 function DefaultLayout({ children }) {
     return (
-        <div>
+        <div className="vh-100 d-flex flex-column justify-content-between">
             <HeaderComponent />
-            { children }
+                { children }
+            <FooterComponent />
         </div>
     );
 }
