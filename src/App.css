@@ -8,8 +8,8 @@
     font-weight: bold !important;
 }
 .card {
-    width: 18rem;
-    height: 18rem;
+    width: 250px;
+    height: 250px;
 }
 .card-body {
     padding: 0px;
