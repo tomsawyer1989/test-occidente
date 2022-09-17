@@ -1,19 +1,23 @@
 import React from "react";
+import { useSelector } from 'react-redux';
+import { selectClient } from "../reducers/clientSlice";
 import DefaultLayout from "../components/DefaultLayout";
 
 function HomePage() {
+    const client = useSelector(selectClient);
+
     return (
         <DefaultLayout>
             <div className="row">
                 <div className="col">
-                    <div className="d-flex flex-column align-items-center mt-5 mb-3">
-                        <h4>Flotas La Macarena</h4>
-                        <small className="text-secondary">NIT: 800 220 154</small>
+                    {client && <div className="d-flex flex-column align-items-center mt-5 mb-3">
+                        <h4>{ client.nombre }</h4>
+                        <small className="text-secondary">NIT: { client.nit }</small>
                         <div>
-                            <strong>Capa: </strong><small>Oro</small>
-                            <strong>Segmento: </strong><small>A</small>
+                            <strong>Capa: </strong><small>{ client.capa }</small>
+                            <strong>Segmento: </strong><small>{ client.segmento }</small>
                         </div>
-                    </div>
+                    </div>}
                     <nav className="mb-4">
                         <div className="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
                             <button className="nav-link active" id="nav-operation-tab" data-bs-toggle="tab" data-bs-target="#nav-operation" type="button" role="tab" aria-controls="nav-operation" aria-selected="true">Operación</button>

@@ -1,7 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSelector, useDispatch } from 'react-redux';
+import { selectClient } from "../reducers/clientSlice";
+import { fetchClient } from "../services/clients";
 
 function HeaderComponent() {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+    const client = useSelector(selectClient);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchClient());
+    }, []);
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     
@@ -15,11 +24,12 @@ function HeaderComponent() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse justify-content-end`} id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            Carlos Gómez
+                    {client && <ul className="navbar-nav">
+                        <li className="nav-item d-flex flex-column">
+                            <strong>{ client.gerenteRelacion }</strong>
+                            <small className="text-secondary">Gerente de Relación</small>
                         </li>
-                    </ul>
+                    </ul>}
                 </div>
             </div>
         </nav>
