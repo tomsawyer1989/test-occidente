@@ -4,7 +4,7 @@ function FooterComponent() {
     return (
         <nav className="navbar bg-light">
             <div className="w-100 d-flex justify-content-end">
-                <span className="navbar-brand mb-0 h1">Navbar</span>
+                <img width={120} height={25} src={require('../assets/images/grupaval.png')} alt="grupaval" />
             </div>
         </nav>
     );

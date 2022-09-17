@@ -8,7 +8,7 @@ function HomePage() {
                 <div className="col">
                     <div className="d-flex flex-column align-items-center mt-5 mb-3">
                         <h4>Flotas La Macarena</h4>
-                        <small>NIT: 800 220 154</small>
+                        <small className="text-secondary">NIT: 800 220 154</small>
                         <div>
                             <strong>Capa: </strong><small>Oro</small>
                             <strong>Segmento: </strong><small>A</small>
@@ -31,14 +31,14 @@ function HomePage() {
                                     <div className="d-flex justify-content-center">
                                         <div className="card">
                                             <div className="card-body">
-                                                <i className="bi bi-wallet2" style={{ fontSize: '3em' }}></i>
+                                                <i className="bi bi-wallet2 text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Cartera ordinaria</h5>
                                                 <a href="/#" className="btn btn-light text-secondary">Continuar</a>
                                             </div>
                                         </div>
                                         <div className="card">
                                             <div className="card-body">
-                                                <i className="bi bi-shop" style={{ fontSize: '3em' }}></i>
+                                                <i className="bi bi-shop text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Leasing</h5>
                                                 <a href="/#" className="btn btn-light text-secondary">Continuar</a>
                                             </div>
