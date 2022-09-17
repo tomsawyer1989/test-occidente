@@ -37,14 +37,14 @@ function HomePage() {
                                             <div className="card-body">
                                                 <i className="bi bi-wallet2 text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Cartera ordinaria</h5>
-                                                <a href="/#" className="btn btn-light text-secondary">Continuar</a>
+                                                <a href="/#" className="w-100 btn btn-light text-secondary">Continuar</a>
                                             </div>
                                         </div>
                                         <div className="card">
                                             <div className="card-body">
                                                 <i className="bi bi-shop text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Leasing</h5>
-                                                <a href="/#" className="btn btn-light text-secondary">Continuar</a>
+                                                <a href="/#" className="w-100 btn btn-light text-secondary">Continuar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -56,8 +56,8 @@ function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="tab-pane fade" id="nav-indicator" role="tabpanel" aria-labelledby="nav-indicator-tab" tabIndex="0">...</div>
-                        <div className="tab-pane fade" id="nav-client" role="tabpanel" aria-labelledby="nav-client-tab" tabIndex="0">...</div>
+                        <div className="tab-pane fade" id="nav-indicator" role="tabpanel" aria-labelledby="nav-indicator-tab" tabIndex="0">Indicadores Tab</div>
+                        <div className="tab-pane fade" id="nav-client" role="tabpanel" aria-labelledby="nav-client-tab" tabIndex="0">Información Cliente Tab</div>
                     </div>
                 </div>
             </div>
