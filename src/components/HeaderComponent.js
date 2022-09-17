@@ -30,13 +30,13 @@ function HeaderComponent() {
                                 <small className="text-secondary">Gerente de Relación</small>
                             </div>
                             <div className="dropdown">
-                                <button className="btn dropdown-toggle rounded-circle" type="button" onClick={() => setIsDropOpen(!isDropOpen)}>
+                                <button className="btn dropdown-toggle rounded-circle" type="button" onClick={() => setIsDropOpen(!isDropOpen)} aria-label="Toggle dropdown">
                                     <i className="bi bi-person-fill" style={{ fontSize: '2em' }}></i>
                                 </button>
                                 <ul className={`position-absolute dropdown-menu${!isDropOpen ? " show" : ""}`} style={{ right: '0px' }}>
-                                    <li><a className="dropdown-item" href="/#">Opción 1</a></li>
-                                    <li><a className="dropdown-item" href="/#">Opción 2</a></li>
-                                    <li><a className="dropdown-item" href="/#">Opción 3</a></li>
+                                    <li><div className="dropdown-item">Opción 1</div></li>
+                                    <li><div className="dropdown-item">Opción 2</div></li>
+                                    <li><div className="dropdown-item">Opción 3</div></li>
                                 </ul>
                             </div>
                         </li>

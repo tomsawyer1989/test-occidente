@@ -38,14 +38,14 @@ function HomePage() {
                                             <div className="card-body">
                                                 <i className="bi bi-wallet2 text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Cartera ordinaria</h5>
-                                                <a href="/#" className="w-100 btn btn-light text-secondary">Continuar</a>
+                                                <button className="w-100 btn btn-light text-secondary" type="button">Continuar</button>
                                             </div>
                                         </div>
                                         <div className="card">
                                             <div className="card-body">
                                                 <i className="bi bi-shop text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Leasing</h5>
-                                                <a href="/#" className="w-100 btn btn-light text-secondary">Continuar</a>
+                                                <button className="w-100 btn btn-light text-secondary" type="button">Continuar</button>
                                             </div>
                                         </div>
                                     </div>
