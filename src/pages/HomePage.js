@@ -14,7 +14,7 @@ function HomePage() {
                         <h4>{ client.nombre }</h4>
                         <small className="text-secondary">NIT: { client.nit }</small>
                         <div>
-                            <strong>Capa: </strong><small>{ client.capa }</small>
+                            <strong>Capa: </strong><small className="me-4">{ client.capa }</small>
                             <strong>Segmento: </strong><small>{ client.segmento }</small>
                         </div>
                     </div>}
@@ -33,7 +33,7 @@ function HomePage() {
                                 </div>
                                 <div className="col-12">
                                     <div className="d-flex justify-content-center">
-                                        <div className="card">
+                                        <div className="card me-2">
                                             <div className="card-body">
                                                 <i className="bi bi-wallet2 text-secondary" style={{ fontSize: '3em' }}></i>
                                                 <h5 className="card-title">Cartera ordinaria</h5>
