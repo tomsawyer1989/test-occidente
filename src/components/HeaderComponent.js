@@ -14,7 +14,7 @@ function HeaderComponent() {
     }, []);
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-xl bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="https://www.bancodeoccidente.com.co/" target="_blank">
                     <img width={220} height={50} src={require('../assets/images/bancoccidente.png')} alt="bancoccidente" />

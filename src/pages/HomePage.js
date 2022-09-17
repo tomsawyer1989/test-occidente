@@ -18,13 +18,14 @@ function HomePage() {
                             <strong>Segmento: </strong><small>{ client.segmento }</small>
                         </div>
                     </div>}
-                    <nav className="mb-4">
+                    <nav className="d-none d-md-block mb-4">
                         <div className="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
                             <button className="nav-link active" id="nav-operation-tab" data-bs-toggle="tab" data-bs-target="#nav-operation" type="button" role="tab" aria-controls="nav-operation" aria-selected="true">Operación</button>
                             <button className="nav-link" id="nav-indicator-tab" data-bs-toggle="tab" data-bs-target="#nav-indicator" type="button" role="tab" aria-controls="nav-indicator" aria-selected="false">Indicadores</button>
                             <button className="nav-link" id="nav-client-tab" data-bs-toggle="tab" data-bs-target="#nav-client" type="button" role="tab" aria-controls="nav-client" aria-selected="false">Información Cliente</button>
                         </div>
                     </nav>
+                    <hr className="d-md-none mb-3"/>
                     <div className="tab-content" id="nav-tabContent">
                         <div className="tab-pane fade show active" id="nav-operation" role="tabpanel" aria-labelledby="nav-operation-tab" tabIndex="0">
                             <div className="row">

@@ -1,0 +1,5 @@
+$custom-grid-breakpoints: (
+    xl: 1280px
+);
+
+$grid-breakpoints: map-merge($grid-breakpoints, $custom-grid-breakpoints);
