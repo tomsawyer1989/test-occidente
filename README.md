@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# TestOccidente
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Diseñar un frontend responsive que cumpla con las condiciones requeridas.
 
-## Available Scripts
+La información del cliente debe ser consultada de un servicio REST, el cual se debe crear usando el servicio AWS Api Gateway, y crearlo con un tipo de integración Mock.
 
-In the project directory, you can run:
+Se debe desplegar el sitio en un bucket de AWS S3.
 
-### `npm start`
+## Frontend ReactJS 18
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Descripcion
+Utilizando ReactJS 18 consumimos un servicio de AWS para luego mostrar la información de un cliente.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Versión de React Redux que utilizamos es "react-redux": "^8.0.2"
+Versión de Redux Toolkit que utilizamos es "@reduxjs/toolkit": "^1.8.5"
+Y bootstrap versión 5.2
 
-### `npm test`
+[Bootstrap](https://getbootstrap.com/docs/5.2/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## URL del repositorio
+- [Url github](https://github.com/tomsawyer1989/test-occidente.git)
 
-### `npm run build`
+## Como ejecutarlo
+1. git clone https://github.com/tomsawyer1989/test-occidente.git
+2. cd test-occidente
+3. npm install
+4. npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navegar a http://localhost:3000/
